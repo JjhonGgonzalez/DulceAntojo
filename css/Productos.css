@@ -1,0 +1,69 @@
+.productos {
+    background-color: #F3ECDF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    margin-top: -5%;
+    font-size:large;
+    
+}
+.productos .contenido_seccion{
+    max-width: 100%;
+    margin: auto;
+}
+.productos h3 {
+    color: black;
+    box-shadow: 2px 2px 5px #000000;
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-family: 'righteous';
+    text-align: center;
+    padding: 10px 0;
+    text-shadow: 4px 4px 4px #ffff;
+}
+.productos .fila{
+    display: flex;
+    width: 50vw;
+}
+.productos .col {
+    width: 100%;
+    padding: 12px;
+}
+.productos .col input, .productos .col  {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-bottom: 5px;
+    border:2px solid #f4f4f4;
+    box-shadow: 2px 2px 5px #000000;
+    border-radius: 8px;
+}
+.productos .contactForm {
+    cursor: pointer;
+    background-color: #a04f4f;
+    border: 2px solid #a04f4f;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    border-radius: 8px;
+    justify-content: center;
+}
+.productos i {
+    font-size: 40px;
+    color: floralwhite;
+    box-shadow: 2px 2px 5px #000000;
+}
+.productos footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+    background-color: #a04f4f;
+    width: 100vw;
+    text-align: center;
+}

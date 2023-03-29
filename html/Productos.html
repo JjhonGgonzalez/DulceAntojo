@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     
  <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/css/Productos.css">
 
      <title>Pasteleriaasdfkjg</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
@@ -28,7 +29,7 @@
         <div class="name__page">
 
             <a href="/index.html">
-            <h4>Dulce<span>Antojo</span></h4>
+            <h4>DulceAntojo</h4>
         </div>
         </a>
 
@@ -75,12 +76,38 @@
 
       <!-------- Mainnnnnnnnnnn   -------   -->
 
-    <main>
-        
+    
+      <main class="productos">
+        <section>
+            <div class="contenido_seccion">
+                <h3>Crear Producto</h3>
+                <class class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <form id="miformulario" action="" method="POST">
+                            <label for="referencia">Referencia:</label>
+                            <input type="number" name="referenciaProd" placeholder="Referencia producto" required>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombreProd" placeholder="Nombre producto" required>
+                            <label for="referencia">Precio:</label>
+                            <input type="number" name="precioProd" placeholder="Precio producto" required>
+                            <label for="stock">Stock:</label>
+                            <input type="number" name="stockProd" placeholder="Cantidad producto" required>
+                            <label for="image">Subir imagen:</label>
+                            <input accept="image/*" type="file" name="imagenProd" required>
+                            <button class="contactForm" type="submit"><i class="fa-regular fa-floppy-disk"></i><span class="overlay"></span></button>
+                        </form>
+                    </div>
+                </class>
+            </div>
+        </section>
     </main>
-
-    <footer></footer>
+    <footer>
+        <h2>© Creado con el ❤️ por QueSoft Col.</h2>
+        <p>Redes sociales </p>
+    </footer>
 
     <script src="/js/script.js"></script>
+    <script src="../js/guardar_prod.js"></script>
 </body>
 </html>

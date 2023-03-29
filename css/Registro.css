@@ -10,7 +10,7 @@ body
 .main-parent
 {
     display: flex;
-    margin-top: 14%;
+    margin-top: 10%;
     justify-content: center;
     align-items: center;
 }

@@ -12,7 +12,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="/css/estilos.css">
-    <link rel="stylesheet" href="/css/Login.css">
+    <link rel="stylesheet" href="/css/Registro.css">
 
     <title>Pasteleriaasdfkjg</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
@@ -68,13 +68,13 @@
             </a>
 
 
-            <a href="/html/Login.html" class="selected">
+            <a href="/html/Login.html">
                 <div class="option">
                     <i><img src="/assets/login.png" alt="Icono" title="Login"></i>
                     <h4>Login</h4>
                 </div>
             </a>
-            <a href="/html/Registro.html">
+            <a href="/html/Registro.html" class="selected">
                 <div class="option">
                     <i><img src="/assets/login.png" alt="Icono" title="Login"></i>
                     <h4>Registro</h4>
@@ -85,26 +85,44 @@
     </div>
 
     <!-------- Mainnnnnnnnnnn   -------   -->
+
+
     <div class="main-parent">
         <div class="form-wrap">
             <form action="">
-                <h1><span>Login</span></h1>
+                <h1><span>Registro</span></h1>
                 <div class="single-input">
-                    <input id="emailAddress" type="email" placeholder="Correo Electronico" required>
+                    <input id="fname" type="text" placeholder="Nombre" required>
                 </div>
                 <div class="single-input">
-                    <input id="passWord" type="password" placeholder="Contraseña" required>
+                    <input id="lname" type="text" placeholder="Apellido" required>
                 </div>
-                <div class="submit-button ">
-                    <button class="button login">Login</button>
+                <div class="single-input">
+                    <input id="email" type="email" placeholder="Correo Electronico" required>
+                </div>
+                <div class="single-input">
+                    <input id="pass" type="password" placeholder="Contraseña" required>
+                </div>
+                <div class="single-input">
+                    <input id="cpass" type="password" placeholder="Confirm contraseña" required>
+                </div>
+                <div class="submit-button">
+                    <button class="button">Submit</button>
                 </div>
                 <div class="account-have">
                     <a href="">Forget Password</a>
-                    <a href="Registro.html">Create new account</a>
+                    <a href="">Have an account please Login</a>
                 </div>
             </form>
         </div>
     </div>
+
+
+
+
+
+
+
     <footer>
         <h2>© Creado con el ❤️ por QueSoft Col.</h2>
         <p>Redes sociales </p>
@@ -113,9 +131,9 @@
 
 
     <script src="/js/script.js"></script>
-    <script src="/js/Login.js"></script>
-    <script src="/js/Alert.js"></script>
     
+    <script src="/js/Alert.js"></script>
+    <script src="/js/Registro.js"></script>
 </body>
 
 </html>
